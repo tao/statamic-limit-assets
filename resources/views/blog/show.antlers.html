@@ -6,9 +6,19 @@
 
         <section class="p-16 mb-8">
           <ul>
-            {{ assets }}
+            {{ images }}
             <li>{{ title }}</li>
-            {{ /assets }}
+            {{ /images }}
+          </ul>
+        </section>
+
+        <hr class="mb-8" />
+
+        <section class="p-16 mb-8">
+          <ul>
+            {{ images limit="2" }}
+            <li>{{ title }}</li>
+            {{ /images }}
           </ul>
         </section>
 

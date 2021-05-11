@@ -90,6 +90,18 @@ sections:
                     listable: hidden
                     display: Code
       -
+        handle: images
+        field:
+          mode: grid
+          container: assets
+          folder: blog
+          restrict: false
+          allow_uploads: true
+          display: Assets
+          type: assets
+          icon: assets
+          listable: hidden
+      -
         handle: assets
         field:
           mode: grid
